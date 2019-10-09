@@ -12,7 +12,7 @@
     TIP: Si querés utilizar multiples archivos .js, simplemente
     agregá más etiquetas <script>.
 */
-
+let probando_push_github
 /*
     Hablemos un poco más de HTML, CSS y de como podemos interactuar con ellos
     en JavaScript.
@@ -53,7 +53,7 @@
     Los archivos CSS consisten en "bloques de declaración". Cada bloque de
     declaración está compuesto de un "selector" y de un conjunto de reglas de estilo
     visuales. Una declaración se ve así:
-    
+
     [selector] {
       nombre-de-estilo: valor;
       nombre-de-estilo: valor;
@@ -170,7 +170,7 @@
 /*
     Propiedades de los elementos
     ==================
-    
+
     Ok, hasta acá todo bien. Peeeroo, ¿que pasa si queremos obtener SOLO el texto
     de nuestra etiqueta 'h1'?
     Los elementos de página tienen una propiedad para esto: '.textContent'.
@@ -193,7 +193,7 @@
     Editar el contenido de la página
     ====================
 
-    Podemos simplemente cambiar el contenido de las étiquetas utilizando la propiedad que 
+    Podemos simplemente cambiar el contenido de las étiquetas utilizando la propiedad que
     vimos recién, '.textContent'.
 
     Ejemplo:
@@ -212,7 +212,7 @@
 /*
     Editando atributos
     ==================
-    
+
     También podemos cambiar y establecer atributos en nuestros elementos.
 
     Ejemplo:
