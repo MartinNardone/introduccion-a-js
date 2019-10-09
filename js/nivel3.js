@@ -12,7 +12,7 @@
     TIP: Si querés utilizar multiples archivos .js, simplemente
     agregá más etiquetas <script>.
 */
-let probando_push_github
+//let probando_push_github
 /*
     Hablemos un poco más de HTML, CSS y de como podemos interactuar con ellos
     en JavaScript.
@@ -124,6 +124,14 @@ let probando_push_github
 //       variable llamada nuestroTitulo.
 //       Utilizá console.log para ver lo que obtuviste!
 
+
+const nuestroTitulo = document.querySelector('h1');
+console.log(nuestroTitulo);
+console.log(nuestroTitulo.innerText);
+let n1 = prompt('cuanto es 2 +  2  ?');
+if (n1 === 4) {
+    nuestroTitulo.innerText = 'bien';
+} else { nuestroTitulo.innerText = 'so verga' };
 
 
 
